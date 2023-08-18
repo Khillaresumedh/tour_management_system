@@ -1,0 +1,20 @@
+.adventure-page{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 20px;
+  background-color: darkgrey;
+}
+
+.adventure-heading {
+  font-size: 24px;
+  font-weight: bold;
+  font-display:inherit;
+  margin-bottom: 20px;
+}
+
+.adventure-carts {
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(900px, 1fr));
+  gap: 20px;
+}

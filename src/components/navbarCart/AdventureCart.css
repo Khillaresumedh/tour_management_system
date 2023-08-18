@@ -1,0 +1,76 @@
+.adventure-cart {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px; 
+  margin-bottom: 20px; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+  }
+  
+  .city-image {
+    width: 650px; 
+    height: 400px; 
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  
+  .city-details {
+    flex: 1;
+  }
+  
+  .city-details h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .city-detail-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .city-detail-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .city-detail-item i {
+    font-size: 18px;
+  }
+  
+  .rate {
+    font-size: 20px;
+    font-weight: bold;
+    background-color:forestgreen;
+    color: #fff;
+  }
+  
+  .book-now-button {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-now-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+.religious-page {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 20px;
+  background-color: darkgrey;
+}
+
+.religious-heading {
+  font-size: 24px;
+  font-weight: bold;
+  font-display:inherit;
+  margin-bottom: 20px;
+}
+
+.religious-carts {
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(900px, 1fr));
+  gap: 20px;
+}
+
+  

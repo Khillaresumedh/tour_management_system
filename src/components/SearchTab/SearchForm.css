@@ -1,0 +1,106 @@
+/* .Form1 {
+    padding: 5px;
+    text-align: center;
+    font-size: medium;
+    margin: 10%;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+
+.Seachtab {
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#Destination {
+    font-weight: bold;
+    background-color: #343a40;
+    color: wheat;
+    padding: 20px 2px 20px 50px;
+}
+
+#Duration {
+    background-color: #343a40;
+    color: wheat;
+    padding: 20px 50px 20px 50px;
+}
+
+#month {
+    background-color: #343a40;
+    color: wheat;
+    padding: 20px 50px 20px 50px;
+}
+
+#Search {
+    background-color: #343a40;
+    color: wheat;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 20px;
+}
+ */
+
+.searchForm1 {
+  padding: 20px !important;
+  border-radius: 10px !important ;
+  width: 60vw !important;
+  position: relative;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+#Destination {
+  font-weight: bold;
+  color: black;
+  padding: 20px;
+  border: 1px solid black !important;
+  border-radius: 10px !important;
+}
+
+#Duration {
+  font-weight: bold;
+  color: black;
+  padding: 20px;
+  border: 1px solid black !important;
+  border-radius: 10px !important;
+}
+
+#month {
+  font-weight: bold;
+  color: black;
+  padding: 20px;
+  border: 1px solid black !important;
+  border-radius: 10px !important;
+}
+
+.btn {
+  font-weight: bold !important;
+  text-align: center !important;
+  color: black !important;
+  padding: 20px 20px 20px 20px !important;
+  border: 1px solid black !important;
+  border-radius: 10px !important;
+  background-color: white !important;
+}
+
+.btn:hover {
+  background-color: aqua;
+}
+
+a:link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.d-flex {
+  padding-right: 19px !important;
+}
+
+.search-input {
+  margin: 20px;
+}

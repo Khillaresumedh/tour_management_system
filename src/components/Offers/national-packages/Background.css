@@ -1,0 +1,43 @@
+.offers-img {
+  object-fit: cover;
+} 
+
+.offers-bg {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.bg_text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  text-align: center;
+}
+
+.bg_text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg_text p {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 1.5rem 0 2rem 0;
+}
+
+@media screen and (max-width: 555px) {
+  .bg_text h1 {
+    padding: 10px 20px;
+  }
+
+  .bg_text p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
+  }
+}

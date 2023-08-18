@@ -1,0 +1,30 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  direction: row;
+  position: absolute;
+  background-color: #01959a;
+  width: 100%;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.item1 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+  font-size: 20px;
+  margin: 2px;
+  padding: 2px;
+  color: black;
+}

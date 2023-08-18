@@ -1,0 +1,32 @@
+.rating-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 20px 10px 10px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.experience {
+  margin-right: 20px;
+}
+
+.rating-btn {
+  color: #01959a;
+  border: 1px solid #01959a;
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.rating-btn:hover {
+  color: black;
+  background-color: #01959a;
+}

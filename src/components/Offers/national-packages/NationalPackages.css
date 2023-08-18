@@ -1,0 +1,281 @@
+.title {
+  text-align: center;
+  margin: 10px;
+}
+
+.package-title {
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.national-image {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 5px;
+  position: relative;
+  /* filter: blur(1px);
+    -webkit-filter: blur(1px); */
+}
+
+.national-card {
+  max-width: 300px;
+  width: 240px;
+  height: 340px;
+  margin: 5px;
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.card {
+  max-width: 300px;
+  width: 240px;
+  height: 360px;
+  margin: 5px;
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+}
+
+.old-price {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: line-through;
+  position: absolute;
+  top: 76%;
+  left: 25%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  text-align: center;
+  padding: 5px;
+}
+
+.new-price {
+  color: #01959a;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 76%;
+  left: 68%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  text-align: center;
+  padding: 5px;
+}
+
+.button {
+  color: #01959a;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #01959a;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+  padding: 5px;
+}
+
+.button:hover {
+  color: white;
+  background-color: #01959a;
+}
+
+.package-name {
+  font-size: 15px;
+  text-align: start;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.national-facility {
+  display: flex;
+  flex-direction: row;
+}
+
+.national-facility h5 {
+  font-size: 12px;
+  margin: 5px;
+}
+
+.national-days {
+  font-size: 12px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  margin-top: -23%;
+  margin-left: 20%;
+  padding: 5px;
+  border-radius: 45%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+  .national-image {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 5px;
+    position: relative;
+    /* filter: blur(1px);
+      -webkit-filter: blur(1px); */
+  }
+
+  .national-card {
+    max-width: 300px;
+    width: 200px;
+    height: 400px;
+    margin: 20px 5px 20px 5px;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+
+  .card {
+    max-width: 300px;
+    width: 200px;
+    height: 370px;
+    margin: 20px 5px 20px 5px;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+
+  .national-facility {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .national-facility h5 {
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .national-days {
+    font-size: 12px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    margin-top: -65%;
+    margin-left: 20%;
+    padding: 5px;
+    border-radius: 45%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .national-image {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 5px;
+    position: relative;
+    /* filter: blur(1px);
+      -webkit-filter: blur(1px); */
+  }
+
+  .national-card {
+    max-width: 300px;
+    width: 200px;
+    height: 370px;
+    margin: 20px 5px 20px 5px;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+
+  .card {
+    max-width: 300px;
+    width: 200px;
+    height: 370px;
+    margin: 20px 5px 20px 5px;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+
+  .national-facility {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .national-facility h5 {
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .national-days {
+    font-size: 12px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    margin-top: -65%;
+    margin-left: 20%;
+    padding: 5px;
+    border-radius: 45%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
