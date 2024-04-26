@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import { Outlet, Link } from "react-router-dom";
 import { BsFillAirplaneFill } from "react-icons/bs";
 import { FaHotel } from "react-icons/fa";
@@ -6,6 +7,8 @@ import { FaPeopleCarry } from "react-icons/fa";
 import { AiFillCar } from "react-icons/ai";
 
 export default function NationalPackageItems(props) {
+  let { destinationId } = useParams();
+
   return (
     <>
       <div className="national-card">
@@ -37,8 +40,9 @@ export default function NationalPackageItems(props) {
           </div>
           <p>
             <Link
-              className="button" // active
-              to="/InternaltionalPackages"
+              className="national-btn" // active
+              value={destinationId}
+              to={props.link}
             >
               {props.name}
             </Link>

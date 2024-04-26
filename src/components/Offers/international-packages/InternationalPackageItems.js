@@ -4,14 +4,20 @@ import { BsFillAirplaneFill } from "react-icons/bs";
 import { FaHotel } from "react-icons/fa";
 import { FaPeopleCarry } from "react-icons/fa";
 import { AiFillCar } from "react-icons/ai";
+import { useNavigate, useParams } from "react-router-dom";
 
 export default function InternationalPackageItems(props) {
+  let { destinationId } = useParams();
   return (
     <>
       <div className="international-card">
         <div className="card">
           {/* <h5 className="package-name">{props.name}</h5> */}
-          <img className="international-image" src={props.url} alt="international" />
+          <img
+            className="international-image"
+            src={props.url}
+            alt="international"
+          />
           <div className="international-facility">
             <h5>
               <BsFillAirplaneFill />
@@ -36,9 +42,10 @@ export default function InternationalPackageItems(props) {
             <h5 className="new-price">{props.new_price}</h5>
           </div>
           <p>
-            <Link
-              className="button" // active
-              to="/KerlaReviews"
+          <Link
+              className="international-btn" // active
+              value={destinationId}
+              to={props.link}
             >
               {props.name}
             </Link>

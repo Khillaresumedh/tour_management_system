@@ -19,16 +19,18 @@ import ThailandList from "./Explore/ThailandList.js";
 import AndamanList from "./Explore/AndamanList.js";
 import MaldivesList from "./Explore/MaldivesList.js";
 
-
-// import SearchFormMain from './priya/SearchTab/SearchFormMain'
 import SearchCondition from "./SearchTab/SearchCondition";
+import BookPacakageCondition from "./SearchTab/BookPacakageCondition";
+import BookNowCondition from "./SearchTab/BookNowCondition";
+import PaymentPage from "./BookPacakage/PaymentPage";
 
-// import Navbar3 from "./navbarCart/Navbar3";
 import AdventurePage from "./navbarCart/AdventurePage";
 import NaturePage from "./navbarCart/NavData3";
 import HillstationPage from "./navbarCart/HillstationPage";
 import ReligiousPage from "./navbarCart/ReligiousPage";
 import WaterActivityPage from "./navbarCart/WaterActivityPage";
+import EuropeOffer from "./BookPacakage/EuropeOffer";
+import KerlaOffer from "./BookPacakage/KerlaOffer";
 
 export default function Home() {
   return (
@@ -56,12 +58,19 @@ export default function Home() {
             <Route path="/international/MaldivesList" element={<MaldivesList />} />
 
             <Route path="/SearchCondition/:destinationId" element={<SearchCondition />}/>
+            <Route path='/BookPacakageCondition/:destinationId' element={<BookPacakageCondition />} />
+            <Route path='/BookNowCondition' element={<BookNowCondition />} />
+            <Route path='/PaymentPage' element={<PaymentPage/>} />
+            <Route path='/EuropeOffer' element={<EuropeOffer />} />
+            <Route path='/KerlaOffer' element={<KerlaOffer/ >} />
 
             <Route path="/adventure" element={<AdventurePage />} />
             <Route path="/nature" element={<NaturePage />} />
             <Route path="/hillstation" element={<HillstationPage />} />
             <Route path="/religious" element={<ReligiousPage />} />
             <Route path="/water-activity" element={<WaterActivityPage />} />
+
+
 
           </Route>
         </Routes>

@@ -1,0 +1,72 @@
+.pckg_book_main {
+  padding: 10px;
+  margin: 8% 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pkg-img {
+  width: 20rem;
+  height: 20rem;
+  margin-left: 39%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.pckg {
+  width: 80vw;
+  margin: 20px;
+}
+
+.inex-btn {
+  padding: 10px;
+  margin: 10px;
+}
+
+.inclusion-btn {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid #01959a;
+  border-radius: 5px;
+  background-color: white;
+  color: #01959a;
+}
+
+.inclusion-btn:hover {
+  border: 2px solid #01959a;
+  background-color: #01959a;
+  color: white;
+}
+
+.exclusion-btn {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid #01959a;
+  border-radius: 5px;
+  background-color: white;
+  color: #01959a;
+}
+
+.exclusion-btn:hover {
+  border: 2px solid #01959a;
+  background-color: #01959a;
+  color: white;
+}
+
+.inclusion-data {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid gray;
+}
+
+.exclusion-data {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid gray;
+}

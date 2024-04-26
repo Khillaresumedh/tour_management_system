@@ -1,0 +1,63 @@
+.remove-btn {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid #01959a;
+  border-radius: 5px;
+  background-color: white;
+  color: #01959a;
+}
+.remove-btn:hover {
+  border: 2px solid #01959a;
+  background-color: #01959a;
+  color: white;
+}
+
+.add-btn {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid #01959a;
+  border-radius: 5px;
+  background-color: white;
+  color: #01959a;
+}
+.add-btn:hover {
+  border: 2px solid #01959a;
+  background-color: #01959a;
+  color: white;
+}
+
+.procced-btn {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid #01959a;
+  border-radius: 5px;
+  background-color: white;
+  color: #01959a;
+}
+.procced-btn:hover {
+  border: 2px solid #01959a;
+  background-color: #01959a;
+  color: white;
+}
+
+.submit-btn {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid #01959a;
+  border-radius: 5px;
+  background-color: white;
+  color: #01959a;
+}
+.submit-btn:hover {
+  border: 2px solid #01959a;
+  background-color: #01959a;
+  color: white;
+}

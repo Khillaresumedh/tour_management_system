@@ -18,6 +18,7 @@ export default function InternationalPackages() {
       days={item.days}
       old_price={item.old_price}
       new_price={item.new_price}
+      link={item.link}
     />
   ));
   return (

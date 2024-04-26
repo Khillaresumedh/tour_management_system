@@ -17,14 +17,16 @@ const Navbar3 = () => {
                 src={item.backgroundImage}
                 alt="theme"
               />
+
               <Link
-                className="card-name"
+                className="theme-btn"
                 to={item.link}
 
                 // style={{ backgroundImage: `url(${item.backgroundImage})` }}
               >
                 {item.name}
               </Link>
+              
             </div>
           </>
         ))}

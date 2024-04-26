@@ -13,7 +13,7 @@ export default function CarouselItem(props) {
               <p>244+ packges</p>
               <p>Starting From: Rs:10,000</p>
             </div>
-            <Link className="card-name" to={props.link}>
+            <Link className="package-btn" to={props.link}>
               {props.name}
             </Link>
           </div>

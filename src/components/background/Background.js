@@ -7,7 +7,7 @@ export default function Background() {
   return (
     <div>
       <div className="bg">
-        <img className="bg-image" src="images/assets/background.jpg" alt="bg-img" />
+        <img className="bg-image" src="images/assets/background1.jpg" alt="bg-img" />
         <div className="bg_text">
           <h1>We are Here To Make your Trip More Memorable</h1>
           <p>customize and book best holiday package</p>
